@@ -453,6 +453,16 @@ nav {
 /* MOBILE-RESPONSIVE */
 
 @media only screen and (max-width: 600px) {
+  
+  header {
+    height: 50vh;
+  }
+
+  nav {
+width: 95%;
+margin: 0px auto;
+justify-content: space-around;
+  }
   .logo {
     width: 60px;
     left: 20px
@@ -460,6 +470,7 @@ nav {
 
   .nav-item {
     font-size: 10px;
+    padding: 0 ;
   }
 
   .nav-item-active {
@@ -469,8 +480,8 @@ nav {
 
   .header-text {
     width: fit-content;
-    top: 220px;
-    left: 15%;
+    top: 180px;
+    left: 5%;
   }
 
   .header-text h2 {
@@ -510,7 +521,7 @@ nav {
   display: flex;
   margin-left: 50px;
   font-weight: bolder;
-  height: 150px;
+  height: 100px;
   align-items: center;
   font-size: 25px;
 }
@@ -518,10 +529,12 @@ nav {
 .cards {
   display: flex;
   justify-content: center;
-  height: 80%;
+  height: 70%;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: flex-end;
+  align-items: center;
+  width: 32%;
+  padding:0 10px;
 }
 
 .card-active {
@@ -546,7 +559,7 @@ nav {
   height: 20px;
   font-size: 20px;
   top: 110px;
-  right: 50px;
+  left: 300px;
 }
 
 /* blog-articles */
@@ -572,9 +585,9 @@ nav {
 .blog-card {
   display: flex;
   position: relative;
-  height: 200px;
+  height: 150px;
   width: 90%;
-  left: 50px;
+  left: 40px;
 }
 
 .blog-card:nth-child(2) {
@@ -585,7 +598,7 @@ nav {
 }
 
 .blog-image img{
-  width: 94%;
+  height: 150px;
 }
 
 .blog-content {
@@ -599,18 +612,23 @@ nav {
 
 .blog-content h6 {
   width: 90px;
-  margin-left: 170px;
-padding-top: 10px;
+  margin-left: 100px;
+padding-top: 0px;
 }
 
 .blog-content h3 {
   margin-left: 0px;
-
+  font-size: 15px;
+  position: relative;
+  right: 30px;
+  width: 100%;
 }
 .blog-content small {
   margin-left: 0px;
   margin-top: 10px;
-
+font-size: 10px;
+position: relative;
+right: 30px;
 }
 
 .blog-bottom {
@@ -622,14 +640,15 @@ padding-top: 10px;
 .blog-card-bottom-image {
   width: 40px;
   position: relative;
-  right: 60px;
+  right: 150px;
 }
 
 .blog-author {
+  /* position: relative; */
   width: 150px;
   bottom: 0px;
-  left: 145px;
-  font-size: 10px;
+  left: 97px;
+  font-size: 7px;
 }
 
 /* faq-section */
@@ -671,14 +690,14 @@ margin-left: 0;
 }
 
 .download-email form input {
-  width: 100%;
+  width: 80%;
   height: 40px;
   padding-left: 25px;
 }
 
 .download-email form button {
   position: relative;
-  left: 230px;
+  left: 200px;
   bottom: 40px;
   width: 100px;
   height: 40px;
